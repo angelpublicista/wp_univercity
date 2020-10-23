@@ -1,0 +1,8 @@
+/*
+Theme Name: Master Template Woo
+
+WooCommerce styles override
+*/
+.woocommerce span.onsale{
+    z-index: 1;
+}
