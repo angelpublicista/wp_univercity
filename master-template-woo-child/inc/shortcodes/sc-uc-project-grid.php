@@ -47,7 +47,7 @@ if(!function_exists('uc_project_grid_func')){
                         <?php the_post_thumbnail( "medium", array("class" => "uc-portfolio-cover img-fluid") ); ?>
                         <div class="uc-portfolio-caption position-absolute w-100 h-100 d-flex flex-column justify-content-center align-items-center p-3 text-center">
                         <span class="uc-portfolio-category uc-text-primary"><?php the_category(); ?></span>
-                        <h2 class="uc-portfolio-title font-weight-bold"><?php the_title(); ?></h2>
+                        <a href="<?php the_permalink(); ?>"><h2 class="uc-portfolio-title font-weight-bold"><?php the_title(); ?></h2></a>
                         <span class="uc-portfolio-client">Cliente: <span class="uc-text-primary"><?php echo $customer_name; ?></span></span>
                         <br>
                         <div class="uc-portfolio-icons">

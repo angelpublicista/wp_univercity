@@ -86,6 +86,12 @@
   transform: translateY(-50px);
   transition: all 0.3s;
 }
+.uc-card-portfolio .uc-portfolio-caption .uc-portfolio-category .post-categories {
+  padding: 0;
+}
+.uc-card-portfolio .uc-portfolio-caption .uc-portfolio-category .post-categories a {
+  color: #AF384A;
+}
 .uc-card-portfolio .uc-portfolio-caption .uc-portfolio-title {
   font-size: 1.3em;
 }
@@ -126,6 +132,18 @@
 }
 .uc-portfolio-category .post-categories a {
   color: black;
+}
+
+.sub-heading-section {
+  padding-top: 6em !important;
+}
+.sub-heading-section .breadcrumbs {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8em;
+  margin-top: 2em;
+}
+.sub-heading-section .breadcrumbs .current-item {
+  opacity: 0.5;
 }
 
 .page-id-281 .sub-heading-section {
@@ -317,10 +335,10 @@
 }
 
 .bottom-header {
-  padding: 1em 2em;
+  padding: 1em;
 }
 .bottom-header .box-logo .img-brand {
-  max-height: 90px !important;
+  max-height: 80px !important;
 }
 
 .form-master {

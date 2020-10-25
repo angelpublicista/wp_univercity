@@ -11,7 +11,7 @@ global $geniorama;
             <div class="col-12 col-md-9 post-col">
                 <div class="post-content mt-5">
                     <div class="entry-content">
-                        <?php echo the_post_thumbnail('full'); ?>
+                        <?php echo the_post_thumbnail('full', array('class' => 'img-fluid')); ?>
                         
                         <?php 
                             $gallery = get_field('galeria'); 
@@ -32,7 +32,7 @@ global $geniorama;
                                 <?php endforeach; ?>
                             </div>
                         </div>
-                        
+                        <hr>
                         <?php
 
                         wp_link_pages( array(
